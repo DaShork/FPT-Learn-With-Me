@@ -1,0 +1,28 @@
+{
+  "subjects": [
+    {
+      "id": "swt301",
+      "name": "Software Testing",
+      "icon": "🧪",
+      "color": "#22c55e",
+      "description": "Ôn tập môn Kiểm thử phần mềm (SWT301)",
+      "semesters": ["Spring26", "Summer26"]
+    },
+    {
+      "id": "swd392",
+      "name": "Software Architecture",
+      "icon": "🏗️",
+      "color": "#facc15",
+      "description": "Ôn tập môn Kiến trúc phần mềm (SWD392)",
+      "semesters": ["Spring26"]
+    },
+    {
+      "id": "prn211",
+      "name": "C# .NET",
+      "icon": "💻",
+      "color": "#22c55e",
+      "description": "Ôn tập môn Lập trình C# với .NET",
+      "semesters": ["Fall25"]
+    }
+  ]
+}

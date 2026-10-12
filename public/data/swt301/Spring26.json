@@ -1,0 +1,75 @@
+{
+  "subjectId": "swt301",
+  "semester": "Spring26",
+  "title": "Software Testing - Spring26",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "TestNG là viết tắt của cụm từ nào?",
+      "options": [
+        "Test Next Generation",
+        "Testing New Group",
+        "Test Number Generator",
+        "Test Node Global"
+      ],
+      "correct": [0],
+      "explanation": "TestNG là viết tắt của Test Next Generation, được tạo ra bởi Cédric Beust."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "question": "Các mức kiểm thử phần mềm gồm:",
+      "options": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Compilation Testing"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Có 4 mức kiểm thử: Unit, Integration, System và Acceptance. Compilation không phải là mức kiểm thử."
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "question": "Kỹ thuật nào thuộc nhóm Black-box Testing?",
+      "options": ["Statement Coverage", "Equivalence Partitioning", "Branch Coverage", "Code Review"],
+      "correct": [1],
+      "explanation": "Equivalence Partitioning là kỹ thuật thiết kế test case dựa trên đặc tả, thuộc nhóm Black-box."
+    },
+    {
+      "id": "q4",
+      "type": "multiple",
+      "question": "JUnit 5 gồm những annotation nào để đánh dấu test method?",
+      "options": ["@Test", "@BeforeEach", "@AfterAll", "@Autowired"],
+      "correct": [0, 1, 2],
+      "explanation": "@Test, @BeforeEach, @AfterAll là annotation JUnit 5. @Autowired thuộc Spring Framework."
+    },
+    {
+      "id": "q5",
+      "type": "single",
+      "question": "Statement Coverage = 100% nghĩa là:",
+      "options": [
+        "Tất cả câu lệnh đã được thực thi ít nhất 1 lần",
+        "Tất cả nhánh đã được cover",
+        "Tất cả điều kiện đã đúng",
+        "Không còn bug"
+      ],
+      "correct": [0],
+      "explanation": "Statement Coverage đảm bảo mọi câu lệnh đã chạy ít nhất 1 lần, không đảm bảo hết nhánh."
+    },
+    {
+      "id": "q6",
+      "type": "single",
+      "question": "Trong Selenium WebDriver, phương thức nào dùng để tìm element bằng CSS selector?",
+      "options": [
+        "findElement(By.cssSelector(...))",
+        "findElement(By.xpath(...))",
+        "findElement(By.name(...))",
+        "findElement(By.tag(...))"
+      ],
+      "correct": [0],
+      "explanation": "By.cssSelector() dùng để tìm element theo CSS selector."
+    }
+  ]
+}

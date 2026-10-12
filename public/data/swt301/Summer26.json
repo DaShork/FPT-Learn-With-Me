@@ -1,0 +1,46 @@
+{
+  "subjectId": "swt301",
+  "semester": "Summer26",
+  "title": "Software Testing - Summer26",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "ISTQB định nghĩa kiểm thử là:",
+      "options": [
+        "Quá trình chạy phần mềm để tìm lỗi",
+        "Quá trình xác minh phần mềm thỏa mãn yêu cầu và làm việc đúng",
+        "Quá trình sửa lỗi phần mềm",
+        "Quá trình viết tài liệu"
+      ],
+      "correct": [1],
+      "explanation": "ISTQB định nghĩa kiểm thử là quá trình xác minh (đúng yêu cầu) và validation (đáp ứng nhu cầu người dùng)."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "question": "Các nguyên tắc kiểm thử (ISTQB) gồm:",
+      "options": [
+        "Kiểm thử cho thấy sự hiện diện của lỗi, không chứng minh phần mềm không có lỗi",
+        "Kiểm thử toàn bộ là không thể",
+        "Sớm tiết kiệm chi phí",
+        "Lỗi tập trung"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Cả 4 đều là nguyên tắc kiểm thử theo ISTQB."
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "question": "Phương pháp TDD là viết tắt của:",
+      "options": [
+        "Test Driven Development",
+        "Test Data Definition",
+        "Test Design Document",
+        "Time Driven Development"
+      ],
+      "correct": [0],
+      "explanation": "TDD = Test Driven Development - phát triển theo hướng kiểm thử."
+    }
+  ]
+}

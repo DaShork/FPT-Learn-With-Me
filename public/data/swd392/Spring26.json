@@ -1,0 +1,33 @@
+{
+  "subjectId": "swd392",
+  "semester": "Spring26",
+  "title": "Software Architecture - Spring26",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "Mẫu kiến trúc MVC gồm những thành phần nào?",
+      "options": [
+        "Model - View - Controller",
+        "Model - View - Component",
+        "Module - View - Controller",
+        "Model - Vector - Controller"
+      ],
+      "correct": [0],
+      "explanation": "MVC = Model - View - Controller."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "question": "Các architectural pattern phổ biến:",
+      "options": [
+        "Layered Architecture",
+        "Microservices",
+        "Event-Driven",
+        "Iteration Pattern"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Iteration Pattern là design pattern, không phải architectural pattern."
+    }
+  ]
+}

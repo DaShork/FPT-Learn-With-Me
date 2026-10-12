@@ -1,0 +1,23 @@
+{
+  "subjectId": "prn211",
+  "semester": "Fall25",
+  "title": "C# .NET - Fall25",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "Trong C#, từ khoá nào dùng để khai báo hằng số?",
+      "options": ["const", "static", "final", "var"],
+      "correct": [0],
+      "explanation": "const dùng để khai báo hằng số trong C#."
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "question": "Các kiểu dữ liệu tham chiếu (reference type) trong C# gồm:",
+      "options": ["class", "string", "int", "array"],
+      "correct": [0, 1, 3],
+      "explanation": "int là value type; class, string, array là reference type."
+    }
+  ]
+}
